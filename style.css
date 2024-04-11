@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(60deg, rgb(31, 7, 47), rgb(10, 10, 57));
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background: linear-gradient(20deg, rgb(6, 6, 51), rgb(9, 9, 69));
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: rgb(152, 152, 247);
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+.left img{
+    color: aliceblue;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.right {
+    font-size: 25px
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+}
+.leftsection{
+    /* margin: 140px 0; */
+font-size: 3rem;
+}
+.color{
+    color: rgb(165, 86, 239);
+}
+/* .rightsection{
+   
+} */
+.firstsection > div{
+    width: 30%;
+}
+.rightsection img {
+    width: 80%;
+    
+}
+#element{
+    color: rgb(165, 86, 239);
+}
+.about{
+    font-size: 30px;
+    margin-left: 170px;
+}
+.about a{
+    text-decoration: none;
+    
+}
+main hr{
+    border: 0;
+    background-color: blueviolet;
+    height: 1.5px;
+    margin: 50px 90px;
+}
+.secondsection{
+    margin: 40px 0;
+    max-width: 80%;
+    margin: auto;
+}
+.grey{
+    color: gray;
+    font-size: 25px;
+}
+.secondsection h1{
+    font-size: 60px;
+}
+.pro{
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.sleft{
+    font-size: 40px;
+}
+.anker{
+    text-decoration: none;
+    color:whitesmoke
+}
+.anker:hover{
+    color: rgb(151, 148, 148);
+}
+.thirdsection{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.thirdsection h1{
+    font-size: 35px;
+}
+.serve{
+    margin-top: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+.serve ul li{
+    margin: 10px;
+}
+.contact{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+}
+.invert{
+    filter: invert(1);
+}
+
+.plateform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 10px;
+}
